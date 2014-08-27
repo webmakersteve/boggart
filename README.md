@@ -3,7 +3,7 @@ Boggart
 
 Big file package management system hookable into storage APIs.
 
-The intent of this package is to be a cli and node package tool for managing front-end big data dependencies. GitHub says it themselves in their [working with large files][https://help.github.com/articles/working-with-large-files]. The TL;DR is don't. 
+The intent of this package is to be a cli and node package tool for managing front-end big data dependencies. GitHub says it themselves in their https://help.github.com/articles/working-with-large-files. The TL;DR is don't. 
 
 Well, that would be perfectly fine but we don't have a distributed system for managing front-end large dependencies. And there's probably a reason why: they're huge. So the idea is to levy a service that already specializes in dealing with distributed large files and integrate it into developer workflow to increase productivity and fix the headaches of dealing with big data.
 
@@ -42,8 +42,11 @@ Naturally, HTTP requests are expensive. You can optimize the speed and bandwidth
 ### Inspiration
 
 ```apt-get``` for teaching me to love package managers
+
 ```pacman``` for teaching me to love package managers even more
+
 ```bower``` for showing the utility of front-end package managers
+
 ```git``` for showing that deployment doesn't need to be so *terrible*
 
 I hope when this comes to life people will enjoy it :)
