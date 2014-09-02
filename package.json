@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/webmakersteve/boggart",
   "dependencies": {
-    "request": "~2.40.0"
+    "request": "~2.40.0",
+    "colors": "~0.6.2",
+    "nconf": "~0.6.9"
   }
 }
