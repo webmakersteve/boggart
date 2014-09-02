@@ -1,0 +1,30 @@
+{
+  "name": "boggart",
+  "version": "0.0.1",
+  "description": "Server side big-file dependency management",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webmakersteve/boggart.git"
+  },
+  "keywords": [
+    "package",
+    "manager",
+    "big",
+    "files",
+    "videos",
+    "images"
+  ],
+  "author": "Stephen Parente",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/webmakersteve/boggart/issues"
+  },
+  "homepage": "https://github.com/webmakersteve/boggart",
+  "dependencies": {
+    "request": "~2.40.0"
+  }
+}
